@@ -11,8 +11,9 @@ jobs:
       - name: setup
         run: |
           export TERM=xterm
-          wget https://raw.githubusercontent.com/neophyteprjkt/Tmate-Ubuntu/main/dependency.sh
-          wget https://raw.githubusercontent.com/neophyteprjkt/Tmate-Ubuntu/main/run.sh
+          wget https://raw.githubusercontent.com/neophyte404/Tmate-Ubuntu/main/dependency.sh
+          wget https://raw.githubusercontent.com/neophyte404/Tmate-Ubuntu/main/run.sh
+          wget https://raw.githubusercontent.com/neophyte404/Tmate-Ubuntu/main/crave.conf
           bash dependency.sh
 
       - name: tmate ssh link
